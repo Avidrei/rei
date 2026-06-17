@@ -1,0 +1,8 @@
+ProjectID,ProjectName,Department,Budget,CompletionRate,RiskScore,ProjectNotes
+P101,Alpha Vector,Engineering,150000,0.85,32,Core microservice migration tracking framework with database clustering constraints.
+P102,Beta Cloud,Engineering,85000,0.40,78,Legacy infrastructure optimization. High risk of breaking old API endpoints.
+P103,Nexus Portal,Marketing,45000,0.95,12,User onboarding dashboard revision focused on visual retention and sign-up flows.
+P104,Quantum Ledger,Finance,220000,0.15,65,Blockchain accounting pipeline. Extremely strict auditing logs and security requirements.
+P105,Omni Scout,Marketing,30000,0.60,45,Social sentiment indexing tool pulling real-time streaming feed matrices.
+P106,Echo Core,Engineering,125000,0.70,22,Internal developer tooling upgrade to reduce automated pipeline compilation bottlenecks.
+P107,Titan Vault,Finance,310000,0.00,89,High-security cold storage data architecture implementation with physical validation steps.
