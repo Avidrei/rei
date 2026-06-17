@@ -40,6 +40,7 @@ class AssistantMemory:
             (limit,)
         )
         rows = cursor.fetchall()
+        
         # History needs to be read in chronological order, so reverse the fetched list
         rows.reverse()
         return [{"role": "user" if r[0] == "user" else "model", "parts": [r[1]]} for r in rows]

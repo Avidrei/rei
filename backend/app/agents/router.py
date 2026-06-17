@@ -6,10 +6,10 @@ from app.services.tool_service import tool_service
 
 class REIAgentRouter:
     def __init__(self):
-        # Initializing the modern Google GenAI Client (100% free-tier compliant)
+        # Initializing the modern Google GenAI Client 
         self.client = genai.Client(api_key=settings.GEMINI_API_KEY)
-        # Using Gemini 2.5 Flash - optimized for extremely fast structured json generation
-        self.model_name = "gemini-2.5-flash"
+        # Using Gemini 3.1 Flash Lite
+        self.model_name = "gemini-3.1-flash-lite"
 
     def determine_routing_plan(self, user_query: str) -> dict:
         """
