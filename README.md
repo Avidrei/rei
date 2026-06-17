@@ -13,6 +13,15 @@ REI is an advanced, dual-stream diagnostic assistant designed to bridge the gap 
 - **LLM:** Google Gemini 3.1 Flash / 3.5 Flash
 - **Memory:** SQLite-based vector & history management
 - **Orchestration:** Agentic routing logic
+- **Frontend:** Next.JS (Typescript)
+
+## Core Agentic Tracks
+- RAG: Semantic search for localized document retrieval.
+- TOOL: Execution of data slicing, correlation analysis, and categorical distribution.
+- HYBRID: Integrated retrieval and analysis for complex queries.
+- FALLBACK: Automated web-grounding via Google Search.
+
+
 
 ## Quick Start
 A. For Backend
@@ -48,6 +57,7 @@ B. For Frontend
    npm i
 
 3. **Launch Next.JS frontend**
+   ```bash
    npm run dev
 
 
